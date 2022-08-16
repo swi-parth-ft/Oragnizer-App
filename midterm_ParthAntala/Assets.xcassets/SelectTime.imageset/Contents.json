@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "SelectTime.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "scale" : "2x",
+      "filename" : "SelectTime@2x.png",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "SelectTime@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

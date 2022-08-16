@@ -1,12 +1,13 @@
 //
 //  AppDelegate.swift
-//  midterm_ParthAntala
+//  exampleLogin
 //
-//  Created by Parth Antala on 2022-06-23.
+//  Created by Parth Antala on 2022-06-21.
 //
 
 import UIKit
-
+import FacebookCore
+import FBSDKCoreKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -14,6 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let backImage = UIImage(named: "backIcon")!.withRenderingMode(.alwaysOriginal)
+        UINavigationBar.appearance().backIndicatorImage = backImage
+        UINavigationBar.appearance().backIndicatorTransitionMaskImage = backImage
+        UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffset(horizontal: 35, vertical: -50.0), for: .default)
+        
+        ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
         return true
     }
 
