@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "holder.png",
+      "scale" : "1x"
+    },
+    {
+      "scale" : "2x",
+      "filename" : "holder@2x.png",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "holder@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
